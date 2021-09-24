@@ -11,9 +11,9 @@ nav li {
     text-align: center;
 }
 
-.menu {
+.bbq {
     text-decoration: none;
-    color: #1a2238;
+    color: black;
     font-family: 'Rubik', sans-serif;
     text-align: center;
     padding-right: 10px;
@@ -21,22 +21,22 @@ nav li {
     padding-top: 10px;
     font-size: 20px;
     padding-bottom: 10px;
-    border-left: 5px solid #1a2238;
-    border-right: 5px solid #1a2238;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
 }
 
 a:hover {
     color: white;
-    background-color: #1a2238;
+    background-color: black;
     transition: 0.3s;
 }
 
 nav {
     width: 100vw;
     position: absolute;
-    height: 10vh;
-    border-bottom: 3px solid crimson;
+    height: 13vh;
+    border-bottom: 5px solid lightgreen ;
     display: flex;
     justify-content: center;
-    background-color: white;
+    background-color: green;
 }
