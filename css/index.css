@@ -35,8 +35,8 @@ nav {
     width: 100vw;
     position: absolute;
     height: 13vh;
-    border-bottom: 5px solid lightgreen ;
+    border-bottom: 10px solid lightgreen ;
     display: flex;
     justify-content: center;
-    background-color: green;
+    background-color: #00CC00 ;
 }
