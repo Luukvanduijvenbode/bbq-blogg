@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    float: left;
+    padding: 30px;
+    margin-top: 1.5vh;
+    list-style: none;
+    text-align: center;
+}
+
+.menu {
+    text-decoration: none;
+    color: #1a2238;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 20px;
+    padding-bottom: 10px;
+    border-left: 5px solid #1a2238;
+    border-right: 5px solid #1a2238;
+}
+
+a:hover {
+    color: white;
+    background-color: #1a2238;
+    transition: 0.3s;
+}
+
+nav {
+    width: 100vw;
+    position: absolute;
+    height: 10vh;
+    border-bottom: 3px solid crimson;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
