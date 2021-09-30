@@ -2,18 +2,29 @@
     margin: 0;
     padding: 0;
 }
+.parallax {
+    background-image: url("../images/Homepaginafoto.png");
+    height: 1000px;
+    width: 100vw;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  
 
 nav li {
     float: left;
     padding: 30px;
-    margin-top: 1.5vh;
+    margin-top: -130vw;
     list-style: none;
     text-align: center;
 }
 
 .bbq {
     text-decoration: none;
-    color: black;
+    color: white;
     font-family: 'Rubik', sans-serif;
     text-align: center;
     padding-right: 10px;
@@ -21,22 +32,13 @@ nav li {
     padding-top: 10px;
     font-size: 20px;
     padding-bottom: 10px;
-    border-left: 5px solid black;
-    border-right: 5px solid black;
-}
-
-a:hover {
-    color: white;
-    background-color: black;
-    transition: 0.3s;
+    border-left: 5px solid silver;
+    border-right: 5px solid silver;
 }
 
 nav {
-    width: 100vw;
-    position: absolute;
-    height: 13vh;
-    border-bottom: 10px solid lightgreen ;
     display: flex;
     justify-content: center;
-    background-color: #00CC00 ;
+    position: fixed;
+    margin-left: 20vw;
 }
